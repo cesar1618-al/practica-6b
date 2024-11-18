@@ -1,0 +1,35 @@
+table, th, td{
+    border-style: groove;
+    border-color: tomato;
+}
+table{
+    border-collapse: collapse;
+    width: 45%;
+}
+th{
+    height: 35px;
+}
+td, th{
+    padding: 20px;
+    background-color: cadetblue;
+    color: bisque;
+}
+tfoot{
+    font-weight: bold;
+    color: aqua;
+}
+ul{
+    list-style-image: url("lista.png");
+    list-style-position: inside;
+    cursor: move;
+}
+html{
+    cursor: url(flecha.png), auto;
+}
+img{
+    position: absolute;
+    right: 50px;
+    top: 50px;
+    width: 300px;
+    z-index: -1;
+}
